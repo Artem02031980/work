@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;   
+}
+
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.row{
+    width: 100%;
+    clear: both;
+}
+
+/*СВОЙСТВА ВСЕХ КОЛОНОК*/
+.col-1,
+.col-2, 
+.col-3, 
+.col-4, 
+.col-5, 
+.col-6, 
+.col-7, 
+.col-8, 
+.col-9, 
+.col-10, 
+.col-11, 
+.col-12{
+    float: left;
+    border: 1px solid #000;
+}
+
+/*СВОЙСТВА КАЖДОЙ КОЛОНКИ*/
+.col-1{
+    width: 8.3333%;
+}
+
+.col-2{
+    width: 16.6666%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.3333%;
+}
+
+.col-5{
+    width: 41.6666%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.3333%;
+}
+
+.col-8{
+    width: 66.6666%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.3333%;
+}
+
+.col-11{
+    width: 91.6666%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+
+
+/*ОТСТУПЫ - добавлять ка дополнительный класс*/
+.offset-1{
+    margin-left: 8.3333%;
+}
+
+.offset-2{
+   margin-left: 16.6666%;
+}
+
+.offset-3{
+    margin-left: 25%;
+}
+
+.offset-4{
+    margin-left: 33.3333%;
+}
+
+.offset-5{
+    margin-left: 41.6666%;
+}
+
+.offset-6{
+    margin-left: 50%;
+}
+
+.offset-7{
+    margin-left: 58.3333%;
+}
+
+.offset-8{
+    margin-left: 66.6666%;
+}
+
+.offset-9{
+    margin-left: 75%;
+}
+
+.offset-10{
+    margin-left: 83.3333%;
+}
+
+.offset-11{
+    margin-left: 91.6666%;
+}
+
+.offset-12{
+    margin-left: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

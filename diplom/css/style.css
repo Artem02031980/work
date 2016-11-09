@@ -1,0 +1,60 @@
+*{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #2d2d2d;
+}
+
+header, section, footer{
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+   
+}
+
+section{
+    padding-top: 10px;
+}
+
+h1{
+    font-size: 36px;
+    color: #9e8d3d;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+}
+
+p.description-section{
+    color: #4e4e4e;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+     margin: 0px 0px 20px 0px;
+}
+
+
+nav ul li{
+    display: inline-block;
+}
+
+.icon-top{
+    font-size: 24px;
+    color: aqua;
+}
+
+.icon-sale{
+    font-size: 62px;
+    color: #9e8d3d;
+}
+
+.sale__header{
+    color: #9e8d3d;
+    font-size: 68px;
+    text-align: center;
+    font-weight: 600;
+}
