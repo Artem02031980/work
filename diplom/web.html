@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <header><!-- Верхняя полоса и первый экран -->
-      <div class="container">
-            <div class="top">
+    <header><!-- Верхняя полоса и главный экран-->
+        <div class="top">
+            <div class="container">
                 <div class="row">
                     <div class="col-1">
                         <a href="#" alt="Логотип Хмелев Артем"><img src="images/logo.svg" alt=""></a>                       
@@ -20,14 +20,14 @@
                     <div class="col-9">
                        <nav>
                            <ul>
-                               <li>Главная</li>
-                               <li>Информация</li>
-                               <li>Услуги</li>
-                               <li>Портфолио</li>
-                               <li>Схема работы</li>
-                               <li>Клиенты</li>
-                               <li>Отзывы</li>
-                               <li>Контакты</li>
+                               <li><a href="">Главная</a></li>
+                               <li><a href="">Информация</a></li>
+                               <li><a href="">Услуги</a></li>
+                               <li><a href="">Портфолио</a></li>
+                               <li><a href="">Схема работы</a></li>
+                               <li><a href="">Клиенты</a></li>
+                               <li><a href="">Отзывы</a></li>
+                               <li><a href="">Контакты</a></li>
                            </ul>
                        </nav>
                    </div>
@@ -35,31 +35,33 @@
                        <div class="top__phone"><div class="fa fa-mobile-phone icon-top"></div> +7 931 207 90 86</div>
                        <div class="top__email"><a href="mailto:artem@hmelev-design.ru" >artem@hmelev-design.ru</a></div>
                    </div>
-               </div>
-           </div>
-           <div class="main">
-              <div class="row">
+                </div><!-- End row -->
+            </div><!-- End container -->
+        </div>    
+        <div class="main"><!-- Главная -->   
+            <div class="container">
+                <div class="row">
                     <div class="col-6">
-                       <div class="main__content">
-                           <h1>Сайт под ключ</h1>
-                           <p class="price">за 7500<!-- иконка fa --></p>
-                           <ul>
+                        <div class="main__content">
+                            <h1>Сайт под ключ</h1>
+                            <p class="price">за 7500</p>
+                            <ul>
                                <li><!-- иконка fa -->Готовый сайт за 10 дней</li>
                                <li><!-- иконка fa -->Современный индивидуальный дизайн</li>
                                <li><!-- иконка fa -->Адаптивность под любые экраны</li>
                                <li><!-- иконка fa -->Бесплатное предоставление домена и хостинга на 3 года</li>
                                <li><!-- иконка fa -->Логотип в подарок</li>
-                           </ul>
-                           <input type="submit" value="заказать сайт" class="main-button">                   
-                       </div>
+                            </ul>
+                            <button class="main-button">заказать сайт</button>
+                        </div>
                     </div>
-                    <div class="col-6">
-                       <div class="main__slider">СЛАЙДЕР</div>
+                        <div class="col-6">
+                        <div class="main__slider">СЛАЙДЕР</div>
                   </div>
-           </div>
-           </div>
-        </div>
-    </header><!-- КОНЕЦ Верхняя полоса и первый экран -->
+                </div><!-- End row -->
+            </div><!-- End container -->
+        </div><!-- End main --> 
+    </header><!-- КОНЕЦ Верхняя полоса и главный экран  --> 
     <section id="info"><!-- Информация -->
         <div class="container">
             <h2>Информация к размышлению</h2>
@@ -67,7 +69,7 @@
                 <div class="row">
                        <div class="col-6">
                             <div class="info__left">
-                                <img src="images/info.png" alt="Артем Юрьевич Хмелев" width="500">
+                                <img src="images/info.png" alt="Артем Юрьевич Хмелев" width="540">
                             </div>
                        </div>
                         <div class="col-6">
@@ -75,8 +77,8 @@
                                 <p class="info-border">Я сделаю вам не только красивый и удобный сайт, который впечатлит пользователей и приведет реальных клиентов, но и существенно сэкономлю ваше время и деньги, выделенные вами на проект! </p>
                                 <p>Обращаясь ко мне за услугами по созданию сайтов, вы находите в моем лице сразу двух профессионалов - web-дизайнера и web-разработчика. Таким образом, вы экономите деньги,  поскольку вам не нужно приходить в web-студию, где цены на услуги не оправданно завышены. Вам также не нужно обращаться сразу к двум специалистам-фрилансерам: мои услуги будут дешевле либо намного качественнее. И вы, конечно же, работая со мной, существенно сокращаете время на запуск своего проекта, поскольку мне не нужно согласовывать рабочие моменты с другим профессиональным специалистом. В качестве бонуса, я сделаю вам бесплатно логотип и размещу сайт на хостинге.</p>
                                 <p>Я также оказываю услуги по web-дизайну и html-верстке по отдельности, если у вас уже имеется своя команда web-программистов или существует правильно спроектированный дизайн-макет сайта.</p>
-                                <input type="submit" value="заказать сайт" class="main-button"> 
-                                <input type="submit" value="посмотреть портфолио" class="extra-button"> 
+                                <button class="main-button">заказать сайт</button>
+                                <button class="extra-button">посмотреть портфолио</button> 
                             </div>
                         </div>
                 </div>
@@ -85,33 +87,33 @@
     <section id="services"><!-- Услуги -->
        <div class="container">
             <h2>Мои услуги</h2>
-            <p class="description-section">Я создаю сайты для решения самых разных задач - от простого lp-сайта до разработки многостраничного интернет-магазина!</p>
+            <p class="description-section">Я создаю сайты для решения самых разных задач -<br>от простого lp-сайта до разработки многостраничного интернет-магазина!</p>
             <div class="row">
                     <div class="col-4">
                         <div class="services-box">
-                            <img src="" alt="">
-                            <h3>Лендинг под ключ</h3>
+                            <img src="images/service-1.svg" alt="лендинг под ключ" class="img-center" >
+                            <h3 >Лендинг под ключ</h3>
                             <p>Одностраничный сайт, разработанный по индивидуальному дизайну, с учетом современных тенденций проектирования LP-сайтов</p>
                             <p class="price">от 7500<!-- иконка fa --></p>
-                            <input type="submit" value="Заказать лендинг под ключ" class="main-button">
+                            <button class="main-button">Заказать лендинг под ключ</button>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="services-box">
-                            <img src="" alt="">
+                            <img src="images/service-2.svg" alt="сайт-визитка под ключ" class="img-center" >
                             <h3>Сайт-визитка под ключ</h3>
                             <p>Корпоративный сайт-визитка, подробно освещающий направления вашего бизнеса и, как правило, имеющий 5-6 информативных страниц</p>
                             <p class="price">от 14000<!-- иконка fa --></p>
-                            <input type="submit" value="Заказать сайт под ключ" class="main-button">
+                            <button class="main-button">Заказать сайт под ключ</button>
                         </div>
                     </div> 
                     <div class="col-4">     
                         <div class="services-box">
-                            <img src="" alt="">
+                            <img src="images/service-3.svg" alt="дизайн сайта" class="img-center" >
                             <h3>Дизайн-макет сайта</h3>
                             <p>Качественный дизайн-макет в формате PSD и техническое руководство в подробном изложении для завершения разработки под ключ</p>
                             <p class="price">от 5000<!-- иконка fa --></p>
-                            <input type="submit" value="Заказать дизайн сайта" class="main-button">
+                            <button class="main-button">Заказать дизайн сайта</button>
                         </div>
                     </div>
             </div>
@@ -200,7 +202,7 @@
         <div class="container">
             <div class="sale__header">75<div class="fa fa-smile-o icon-sale"></div><div class="fa fa-smile-o icon-sale"></div><div class="fa  fa-ruble icon-sale"></div></div>
             <p>Хотите лендинг ровно за 7500 рублей? Обращайтесь! Я подберу вам отличный шаблон, преобразую дизайн сайта под ваши индивидуальные задачи, сделаю логотип, внесу необходимый контент и размещу сайт на хостинге!</p>
-            <input type="submit" value="Заказать лендинг за 7500 рублей" class="main-button">
+            <button class="main-button">Заказать лендинг за 7500 рублей</button>
         </div>
     </section><!-- КОНЕЦ Акция -->
     <section id="clients"><!-- Заказчики -->

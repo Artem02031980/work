@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;   
+    
+    margin: 0;
 }
 
 .container{
@@ -26,7 +27,7 @@
 .col-11, 
 .col-12{
     float: left;
-    border: 1px solid #000;
+    
 }
 
 /*СВОЙСТВА КАЖДОЙ КОЛОНКИ*/

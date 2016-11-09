@@ -1,3 +1,5 @@
+/*all*/
+
 *{
     font-family: 'Open Sans';
     font-size: 15px;
@@ -8,18 +10,47 @@ header, section, footer{
     width: 100%;
     margin: 0 auto;
     clear: both;
-   
+    display: block;
+    
+}
+
+nav{
+    display: block;
 }
 
 section{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
-h1{
-    font-size: 36px;
-    color: #9e8d3d;
-    font-weight: 600;
+.main-button{
+    background-color: #8c4e35;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 2px;
 }
+
+.main-button:hover{
+    background-color: #bd7a60;    
+}
+
+.extra-button{
+    color: #8c4e35;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 3px solid  #8c4e35;
+    padding: 2px 20px 2px 20px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 2px;
+}
+
+.extra-button:hover{
+    border-color: #bd7a60;
+    color: #bd7a60;    
+}
+
 
 h2{
     font-size: 30px;
@@ -34,18 +65,181 @@ p.description-section{
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
-     margin: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 
+.img-center{
+   margin: 0 auto;
+   display: block;   
+}
+
+
+/*header*/
+
+/*header - top*/
+
+.top{
+    background-color: #2d2d2d;
+    height: 70px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.top img{
+    margin-top: 15px;
+}
 
 nav ul li{
     display: inline-block;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+nav ul li:last-child{
+    margin-right: 0px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #bd7a60;    
+}
+
+.top__phone{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: right;
 }
 
 .icon-top{
-    font-size: 24px;
-    color: aqua;
+    font-size: 22px;
+    color: #fff;
 }
+
+.top__email{
+    text-align: right;
+    margin-top:-5px; 
+}
+
+.top__email a{
+    color: #fff;   
+    font-size: 13px;
+}
+
+.top__email a:hover{
+    color: #ccc;    
+}
+
+/*header -main*/
+
+.main{
+    background-color: #c8cdd0;
+    height: 507px; 
+}
+
+.main__content{
+    background: url(../images/lightning.png) no-repeat;
+    padding: 100px 0 0 0;
+    height: 407px;
+}
+
+h1{
+    font-size: 36px;
+    color: #9e8d3d;
+    font-weight: 600;
+}
+
+.main__content ul{
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.main__content ul li{
+    list-style-type: none;
+    
+}
+
+.main__content ul li:before{
+    content:"\f058";
+    font-family: 'FontAwesome';
+    margin-right: 3px;
+    color: #747070;
+}
+
+/*info*/
+#info{
+    height: 620px;
+}
+
+.info__right p{
+    line-height: 17px;
+    font-size: 14px;
+   margin-bottom: 20px;
+}
+
+
+.info-border{
+    border: 3px dotted #f69730;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/*services*/
+#services{
+    height: 620px;
+    background-image: url(../images/services_bg.jpg);
+}
+
+.services-box{
+   
+}
+
+
+.services-box h3{
+    color: #9e8d3d;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.services-box p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 20px 20px;
+    
+}
+
+p.price{
+    font-size: 30px;
+    color: #f69730;
+    font-weight: 600;
+}
+
+.price:after{
+    
+    content: "\f158";
+    font-family: 'FontAwesome';
+    margin-left: 5px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+#services button{
+    width: 360px;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+/*sale*/
 
 .icon-sale{
     font-size: 62px;
@@ -58,3 +252,34 @@ nav ul li{
     text-align: center;
     font-weight: 600;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
