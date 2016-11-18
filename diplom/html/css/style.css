@@ -76,7 +76,7 @@ p.description-section{
     margin: 0px 0px 20px 0px;
 }
 
-.img-center{
+.center{
    margin: 0 auto;
    display: block;   
 }
@@ -138,7 +138,7 @@ nav ul li a:hover{
 }
 
 .top__email a:hover{
-    color: #ccc;    
+    color: #bd7a60;    
 }
 
 /*header -main*/
@@ -184,11 +184,10 @@ h1{
 }
 
 .info__right p{
-    line-height: 17px;
-    font-size: 14px;
-   margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
-
 
 .info-border{
     border: 3px dotted #f69730;
@@ -200,7 +199,7 @@ h1{
 
 /*services*/
 #services{
-    height: 620px;
+    height: 600px;
     background-image: url(../images/bg_white.jpg);
 }
 
@@ -329,6 +328,12 @@ p.price{
 }
 
 
+/*sale*/
+
+#sale{
+    background-color: #cdd6dd;
+    height: 400px;
+}
 
 .icon-sale{
     font-size: 62px;
@@ -342,13 +347,216 @@ p.price{
     font-weight: 600;
 }
 
+#sale p{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    text-align: center;
+    line-height: 36px;
+    margin: 20px 0px;
+}
+
+/*clients*/
+
+#clients{
+    height: 500px;
+     background-image: url(../images/bg_white.jpg);
+}
 
 
+/*reviews*/
 
+#reviews{
+    background-image: url(../images/bg_grey.jpg);
+    height: 800px;
+}
 
+#reviews img{
+    border-radius: 100px;
+    filter: grayscale(100%);
+    transition: 1s linear;
+    
+}
 
+#reviews img:hover{
+    filter: grayscale(40%);    
+}
 
+.review>.row{
+    margin-top: 40px;
+    height: 170px;
+}
 
+h5{
+    margin-bottom: 10px;
+}
+
+h5>a{
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: none;
+    
+}
+
+.reviews-text{
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 20px;
+}
+
+h6{
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    text-align: right;
+    font-style: italic;
+}
+
+/*contacts*/
+#contacts{
+    background: #c3cac3;
+    height: 500px;
+}
+
+.contacts__box_color-1{
+    background-color: #505f6b;
+    margin: 15px;
+    width: 360px;
+    height: 275px;
+    padding-top: 10px;
+}
+
+form>h3{
+    color: #ebedeb;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+form>h4{
+    color: #ebedeb;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+    display: block;
+}
+
+form>input{
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    color:#c3cac3;
+}
+
+.form-br{
+    height: 10px;
+}
+
+form>select{
+    width: 284px;
+    height: 30px;
+    color: #505f6b;    
+}
+
+.form-button{
+    width: 284px;
+}
+
+.contacts__box_color-2{
+    background-color:#ebedeb;
+    margin: 15px;
+    width: 360px;
+    height: 275px;
+    padding-top: 10px;
+}
+
+.contacts__phone{
+    height: 185px;
+    clear: both;
+}
+
+.contacts__phone_left{
+    height: 185px;
+    width: 165px;
+    float: left;
+    background-image: url(../images/star-contacts.svg);
+}
+
+.icon-call{
+    font-size: 60px;
+    margin: 60px 60px;
+}
+
+.contacts__phone_right{
+    padding: 30px 0px;    
+}
+
+.contacts__phone_right>p{
+    font-size: 18px;
+    font-weight: 600;    
+}
+
+.phone-operator{
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    padding-right: 40px;
+}
+
+.contacts__mail{
+    height: 90px;
+    background: #88a788;
+    text-align: center;   
+}
+
+.contacts__mail_mailskype{
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 600;    
+}
+
+.contacts__mail_mailskype>a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+/*map*/
+
+#map{
+    height: 300px;
+    padding: 0;
+}
+
+/*footer*/
+
+footer{
+    height: 70px;
+    background-color: #2d2d2d;
+}
+
+footer span{
+    color: #ebedeb;
+    font-size: 20px;
+    
+}
+
+footer img{
+    padding-top: 25px;
+}
+
+.icon-footer{
+    color: #ebedeb;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.icon-footer:hover{
+    color: #bd7a60;    
+}
 
 
 
